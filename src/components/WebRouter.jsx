@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import BlogPost from './BlogPost'
+import Blog from './Blog'
 
 const routes = [
     {
@@ -9,8 +9,8 @@ const routes = [
       main: () => <h2>Home</h2>
     },
     {
-      path: "/blogpost",
-      main: () => <BlogPost></BlogPost>
+      path: "/Blog",
+      main: () => <Blog></Blog>
     },
     {
       path: "/home",
